@@ -837,16 +837,16 @@ img {
   margin-bottom: 36px;
 }
 
+.places__title {
+  margin-right: 15px;
+}
+
 .places__view-all {
   font-size: 16px;
   color: #006dfe;
   text-decoration: none;
   padding-right: 59px;
   background: url(../img/svg/erow-rait-ico.svg) no-repeat right center;
-}
-
-.places__title {
-  margin-right: 15px;
 }
 
 .places__view-all:hover,
@@ -1201,11 +1201,11 @@ img {
   }
   .places__card_size_lg {
     -ms-grid-column-span: 6;
-    column: span 6;
+    grid-column: span 6;
   }
   .places__card_size_sm {
     -ms-grid-column-span: 6;
-    column: span 6;
+    grid-column: span 6;
   }
   .tours__tour {
     column-gap: 35px;
@@ -1225,7 +1225,7 @@ img {
   }
   .top__card {
     -ms-grid-column-span: 3;
-    column: span 3;
+    grid-column: span 3;
   }
   .top__card-pic {
     margin-bottom: 25px;
