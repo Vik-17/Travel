@@ -640,7 +640,7 @@ img {
   background-size: cover;
   padding-top: 263px;
   padding-bottom: 223px;
-  margin-bottom: 130px; /* это под вопросом. у него нет этого */
+  margin-bottom: 45px; /* это под вопросом. у него нет этого */
 }
 
 .intro__title {
